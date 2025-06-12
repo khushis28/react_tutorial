@@ -1,11 +1,13 @@
-
+import Code from "./code.jsx"
 
 
 function App() {
-
-
   return (
-    <h1>Welcome to React with Vite | KS</h1>
+   
+   <div> 
+    <Code/>
+    <h1>react and code</h1>
+    </div>
   )
 }
 

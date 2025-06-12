@@ -1,8 +1,11 @@
-
+import Code from "./Code.js"
 
 function App() {
   return (
-     <h1>Welcome to React | KS</h1>
+    <>
+    <Code />
+     {/* <h1>Welcome to React | KS</h1> */}
+     </>
   );
 }
 
