@@ -1,13 +1,12 @@
-import Code from "./code.jsx"
-
+import Code from './code'
 
 function App() {
+
   return (
-   
-   <div> 
-    <Code/>
-    <h1>react and code</h1>
-    </div>
+   <>
+    <Code />
+     <h1>code and react</h1>
+   </>
   )
 }
 
