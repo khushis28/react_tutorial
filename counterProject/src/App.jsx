@@ -1,6 +1,6 @@
-import { useState } from 'react'
+import React from 'react'
 
-import './App.css'
+// import './App.css'
 
 // function App() {
 //   let [counter, setCounter] = useState(15)
@@ -32,33 +32,42 @@ import './App.css'
 
 
 
-function App() {
+// function App() {
 
-  const [count, setCount]=useState(1);
+//   const [count, setCount]=useState(1);
 
-  const handlePlus =()=>{
-    setCount(count + 1 );
-  }
+//   const handlePlus =()=>{
+//     setCount(count + 1 );
+//   }
 
-   const handleMinus =()=>{
-    setCount(count - 1 );
-  }
+//    const handleMinus =()=>{
+//     setCount(count - 1 );
+//   }
 
-  const handleReset =()=>{
-     setCount(0)
-  }
+//   const handleReset =()=>{
+//      setCount(0)
+//   }
 
-  return(
-    <div>
-      <p>This counter Website</p>
-      <div>
-         <button onClick={handlePlus}>+</button>
-         <p>The counter Value is: {count} </p>
-         <button onClick={handleMinus}>-</button>
-         <button onClick={handleReset}>Reset</button>
-      </div>
-    </div>
-  )
+//   return(
+//     <div>
+//       <p>This counter Website</p>
+//       <div>
+//          <button onClick={handlePlus}>+</button>
+//          <p>The counter Value is: {count} </p>
+//          <button onClick={handleMinus}>-</button>
+//          <button onClick={handleReset}>Reset</button>
+//       </div>
+//     </div>
+//   )
+// }
+
+export const App = () =>{
+  return React.createElement("h1", null, "Hi, This is Khushi Singh")
 }
+
+
+{/* <h1>Hi, This is Khushi Singh</h1> */}
+
+
 
 export default App;
