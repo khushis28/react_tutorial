@@ -1,14 +1,15 @@
-import NetflixSeries from "./components/NetflixSeries"
+import ViewData from "./api/ViewData"
 
-export const App = () => {
+ export const App = () => {
   return (
     <>
     
+    {/* <NetflixSeries/>
     <NetflixSeries/>
     <NetflixSeries/>
     <NetflixSeries/>
-    <NetflixSeries/>
-    <NetflixSeries/>
+    <NetflixSeries/> */}
+    <ViewData/>
     
     </>
   )
